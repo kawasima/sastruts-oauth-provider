@@ -17,11 +17,11 @@ public class OauthTokenBase implements OauthToken {
     public  OauthTokenBase() {
         generateKeys();
     }
-
+    /*
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
-
+*/
     public Long userId;
     public String type;
     public Long clientApplicationId;
